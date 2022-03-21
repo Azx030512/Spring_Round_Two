@@ -1,0 +1,75 @@
+body {
+  font-family:Verdana,Geneva,Arial,sans-serif;
+  font-size:150%;
+  font-weight:bold;
+  background-color:pink;
+  margin-left:400px;
+}
+button{
+    font-size:250%;
+    margin:30px;
+    padding-left:200px;
+    text-align:center;
+    padding:20px;
+    vertical-align:middle;
+    position:center;
+    width:150px;
+    height:150px;
+    border-width:bold;
+    border-style:dashed;
+}
+button:active{
+    background-color:blue;
+}
+.clear{
+    border-style:solid;
+    border-width:bold;
+    width:150px;
+    height:40px;
+    background:#b7ff4a;
+    position:center;
+    text-align:center;
+    vertical-align:middle;
+}
+button#true{
+    background:green;
+}
+a{
+    text-decoration:none;
+}
+div.status{
+    background:#ffcc00;
+    border-color:black;
+    border-width:1px;
+    border-style:dashed;
+    background-color:pink;
+    padding:25px;
+    margin:30px;
+    margin-right:200px;
+    border-radius:15px;
+}
+div.tips{
+    background:#ffcc00;
+    border-color:black;
+    border-width:1px;
+    border-style:dashed;
+    background-color:pink;
+    padding:25px;
+    margin:30px;
+    margin-right:200px;
+    border-radius:15px;
+}
+div#azx{
+    border-width:thin;
+    border-style:solid;
+    border-color:#007e7e;
+    width:150px;
+    text-align:center;
+    float:right;
+    background-color:#87cefa;
+}
+button.large{
+    width:180px;
+    height:180px;
+    font-size:300%;
+}
